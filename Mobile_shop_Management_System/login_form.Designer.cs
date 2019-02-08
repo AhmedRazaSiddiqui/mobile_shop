@@ -103,6 +103,7 @@
             this.login_form_login_button.TabIndex = 5;
             this.login_form_login_button.Text = "LOGIN";
             this.login_form_login_button.UseVisualStyleBackColor = false;
+            this.login_form_login_button.Click += new System.EventHandler(this.login_form_login_button_Click);
             // 
             // login_form_exit_button
             // 

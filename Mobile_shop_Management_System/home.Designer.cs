@@ -1,6 +1,6 @@
 ﻿namespace Mobile_shop_Management_System
 {
-    partial class Form2
+    partial class home
     {
         /// <summary>
         /// Required designer variable.

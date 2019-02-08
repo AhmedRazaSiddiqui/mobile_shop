@@ -37,5 +37,10 @@ namespace Mobile_shop_Management_System
             Environment.Exit(0);
            
         }
+
+        private void login_form_login_button_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

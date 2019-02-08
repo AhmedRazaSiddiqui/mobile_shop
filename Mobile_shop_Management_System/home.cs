@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Mobile_shop_Management_System
 {
-    public partial class Form2 : Form
+    public partial class home : Form
     {
-        public Form2()
+        public home()
         {
             InitializeComponent();
         }
