@@ -16,7 +16,7 @@ namespace Mobile_shop_Management_System
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new login_form());
         }
     }
 }

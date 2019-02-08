@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace Mobile_shop_Management_System
 {
-    public partial class Form1 : Form
+    public partial class login_form : Form
     {
-        public Form1()
+        public login_form()
         {
             InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
