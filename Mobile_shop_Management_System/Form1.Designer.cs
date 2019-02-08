@@ -35,6 +35,7 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.login_form_login_button = new System.Windows.Forms.Button();
             this.login_form_exit_button = new System.Windows.Forms.Button();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
             // label1
@@ -113,12 +114,20 @@
             this.login_form_exit_button.Text = "EXIT";
             this.login_form_exit_button.UseVisualStyleBackColor = false;
             // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(295, 12);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
+            this.dateTimePicker1.TabIndex = 7;
+            // 
             // login_form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.RoyalBlue;
             this.ClientSize = new System.Drawing.Size(507, 306);
+            this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.login_form_exit_button);
             this.Controls.Add(this.login_form_login_button);
             this.Controls.Add(this.textBox2);
@@ -144,6 +153,7 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button login_form_login_button;
         private System.Windows.Forms.Button login_form_exit_button;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }
 
