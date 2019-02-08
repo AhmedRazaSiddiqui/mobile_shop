@@ -26,5 +26,16 @@ namespace Mobile_shop_Management_System
         {
 
         }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void login_form_exit_button_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(0);
+           
+        }
     }
 }

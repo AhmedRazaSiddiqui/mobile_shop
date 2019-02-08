@@ -76,6 +76,7 @@
             // 
             this.textBox1.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.ForeColor = System.Drawing.Color.Navy;
             this.textBox1.Location = new System.Drawing.Point(230, 103);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(207, 31);
@@ -84,6 +85,7 @@
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.ForeColor = System.Drawing.Color.Navy;
             this.textBox2.Location = new System.Drawing.Point(230, 140);
             this.textBox2.Name = "textBox2";
             this.textBox2.PasswordChar = '#';
@@ -113,6 +115,7 @@
             this.login_form_exit_button.TabIndex = 6;
             this.login_form_exit_button.Text = "EXIT";
             this.login_form_exit_button.UseVisualStyleBackColor = false;
+            this.login_form_exit_button.Click += new System.EventHandler(this.login_form_exit_button_Click);
             // 
             // dateTimePicker1
             // 
@@ -120,6 +123,7 @@
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
             this.dateTimePicker1.TabIndex = 7;
+            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // login_form
             // 
